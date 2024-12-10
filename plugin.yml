@@ -1,0 +1,15 @@
+name: BDMayorUI
+main: BDMayorUI\BobyDev\UI
+version: 1.0.0
+api: [5.0.0]
+author: BobyDev
+description: A plugin to show server rules and information using FormAPI.
+commands:
+  rules:
+    description: Show the server rules.
+    usage: /rules
+    permission: mayorui.rules
+permissions:
+  mayorui.rules:
+    description: Allows the use of /rules command
+    default: true
